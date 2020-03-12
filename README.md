@@ -1,4 +1,4 @@
-# online-harms-table
+# Taxonomy of online harms
 
 Categorizing the ways people are harmed online, along multiple dimensions.
 
