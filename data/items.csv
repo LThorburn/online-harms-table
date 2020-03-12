@@ -1,0 +1,75 @@
+issue,audience_target,audience_others,accuracy_high,accuracy_mixed,accuracy_low,timespan_long,timespan_short,accidental,deliberate
+stalking,1,0,1,0,0,1,0,0,1
+threatening,1,0,1,0,0,0,1,0,1
+harassing,1,0,1,0,0,1,0,1,1
+unwanted attention,1,0,1,0,0,0,1,1,0
+unwanted intimacy,1,0,1,0,0,1,0,1,0
+"triggering (revulsion, phobias, epilepsy, PTSD response, depression, eating disorders, self-harm, suicide, bad habits, addictions, ...)",1,0,1,0,0,0,1,1,0
+gaslighting,1,0,1,0,0,1,0,0,1
+demoralising,1,0,1,0,0,1,0,1,1
+spoiling fun,1,0,1,0,0,0,1,1,0
+kink-shaming/slut-shaming,1,0,1,0,0,1,0,0,1
+narrative spoilers,1,0,1,0,0,0,1,1,0
+wasting time (sealioning),1,0,1,0,0,1,0,0,1
+cliffhangers,1,0,1,0,0,0,1,0,1
+provocation to platform-prohibited behavior,1,0,1,0,0,1,0,0,1
+provocation to careless speech,1,0,1,0,0,1,0,1,1
+blackmail,1,0,1,0,0,0,1,0,1
+bypassing decisions by guardians for age-appropriate content (for children),1,0,1,0,0,1,0,1,1
+"speaking truth to power (may harm powerful, or people perceived as powerful in context)",1,1,1,0,0,0,1,1,1
+excessive volume of public comments,1,1,1,0,0,1,0,1,0
+mocking to their face,1,1,1,0,0,0,1,1,1
+expression of hope that harm comes to the person,1,1,1,0,0,0,1,0,1
+demanding action before removing publicly shaming content,1,1,1,0,0,1,0,0,1
+shifting tone of a space to be hostile to target,1,1,1,0,0,1,0,1,1
+dangerous challenge memes,1,1,1,0,0,1,0,1,0
+spreading divisive (consensus-resistant) content,0,1,1,0,0,1,0,1,0
+"doxing (publication of home address, phone number, email, identities of family members/friends, medical history...)",0,1,1,0,0,0,1,0,1
+copyright infringement,0,1,1,0,0,1,0,1,0
+stealing jokes / attribution failure,0,1,1,0,0,1,0,1,1
+outing,0,1,1,0,0,,1,1,1
+leaks from an organisation,0,1,1,0,0,0,1,0,1
+leaks of personal communication,0,1,1,0,0,0,1,0,1
+sexual images/recording without subject's consent,0,1,1,0,0,0,1,0,1
+revealing details of intimate relationship,0,1,1,0,0,0,1,0,1
+reporting prohibited or dubious behaviour,0,1,1,0,0,0,1,0,1
+advance rebuttal,0,1,1,0,0,0,1,1,1
+asking that someone be ignored/excluded,0,1,1,0,0,1,0,0,1
+mocking behind their back (including with photos/memes),0,1,1,0,0,1,0,0,1
+SEO of harmful content,0,1,1,0,0,1,0,0,1
+publication of statements in a different context (eg. years later),0,1,1,0,0,1,0,1,1
+signal flaring (drawing unwanted attention),0,1,1,0,0,0,1,1,1
+advertising,1,0,0,1,0,1,0,0,1
+spam (advertising in a non-ad space),1,0,0,1,0,1,0,0,1
+insults,1,0,0,1,0,1,0,1,1
+raising anxiety,1,0,0,1,0,1,0,1,0
+raising outrage,1,0,0,1,0,1,0,1,0
+clickbait,1,0,0,1,0,0,1,1,1
+dark patterns (in UI design),1,0,0,1,0,0,1,0,1
+dunking (being mean mostly for the audience),1,1,0,1,0,0,1,1,1
+dogpiling,1,1,0,1,0,1,0,1,1
+playing the victim,1,1,0,1,0,1,0,1,1
+publicly threatening one person to intimidate or silence a group,1,1,0,1,0,0,1,0,1
+incitement to genocide,0,1,0,1,0,1,0,0,1
+recruitment to causes and organisations opposed to target,0,1,0,1,0,1,0,0,1
+badmouthing/gossip,0,1,0,1,0,1,0,1,0
+stochastic terrorism,0,1,0,1,0,1,0,0,1
+threatening target's medical provider,0,1,0,1,0,0,1,0,1
+"harassing target's spouse, friends, and family, linked to from target's social media profiles",0,1,0,1,0,1,0,0,1
+phishing,1,0,0,0,1,1,0,0,1
+catfishing,1,0,0,0,1,1,0,0,1
+financial fraud,1,0,0,0,1,1,0,0,1
+demonstrating someone's gullibility,1,1,0,0,1,0,1,1,1
+credibility hijacking (getting someone to share false content),1,1,0,0,1,0,1,1,1
+visibly ignoring,1,1,0,0,1,1,0,1,1
+intentional misreading,1,1,0,0,1,1,0,0,1
+faked stunt challenges,1,1,0,0,1,1,0,1,1
+unrecognized satire,1,1,0,0,1,1,0,1,1
+hoaxes (often unclear who is the target),0,1,0,0,1,0,1,0,1
+click farms,0,1,0,0,1,1,0,0,1
+brigading (secretly coordinated crowd),0,1,0,0,1,1,0,0,1
+impersonation / identity theft,0,1,0,0,1,1,0,0,1
+slander,0,1,0,0,1,1,0,1,1
+SWATing,0,1,0,0,1,0,1,0,1
+false complaints to target's employer or professional organisation,0,1,0,0,1,0,1,0,1
+false complaints to Child Protective Services aimed at target's children,0,1,0,0,1,0,1,0,1
