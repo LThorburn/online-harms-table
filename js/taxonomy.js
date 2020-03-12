@@ -11,7 +11,7 @@
 
 var items;
 
-Papa.parse("../data/items.csv", {
+Papa.parse("data/items.csv", {
 	download: true,
 	header: true,
 	dynamicTyping: true,
