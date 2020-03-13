@@ -97,6 +97,16 @@ regenerateTaxonomy = function() {
 					<strong>` + rowDim.groups[1].label + `</strong> ` + rowDim.groups[1].description + `
 			</div>
 		`);
+		if (rowDim.groups[0].hasOwnProperty('summary')) {
+			tax.insertAdjacentHTML('beforeend', `
+				<div class="temp venn-row-top-summary summary row-summary">` + rowDim.groups[0].summary + `</div>
+			`);
+		}
+		if (rowDim.groups[1].hasOwnProperty('summary')) {
+			tax.insertAdjacentHTML('beforeend', `
+				<div class="temp venn-row-bottom-summary summary row-summary">` + rowDim.groups[1].summary + `</div>
+			`);
+		}
 	}
 	
 
@@ -117,6 +127,16 @@ regenerateTaxonomy = function() {
 					<strong>` + colDim.groups[1].label + `</strong> ` + colDim.groups[1].description + `
 			</div>
 		`);
+		if (colDim.groups[0].hasOwnProperty('summary')) {
+			tax.insertAdjacentHTML('beforeend', `
+				<div class="temp venn-col-left-summary summary">` + colDim.groups[0].summary + `</div>
+			`);
+		}
+		if (colDim.groups[1].hasOwnProperty('summary')) {
+			tax.insertAdjacentHTML('beforeend', `
+				<div class="temp venn-col-right-summary summary">` + colDim.groups[1].summary + `</div>
+			`);
+		}
 	}
 
 

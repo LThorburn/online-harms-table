@@ -15,12 +15,14 @@ var dims = [
 			{
 				key: "audience_target",
 				label: "Direct",
-				description: "Delivery aligns with harm, with content delivered to the person harmed (the target). Blocking helps."
+				description: "Delivery aligns with harm, with content delivered to the person harmed (the target). Blocking helps.",
+				summary: "Harm depends on delivery to target"
 			},
 			{
 				key: "audience_others",
 				label: "Indirect",
-				description: "Content delivered to others and effective without target receiving it. Blocking does not help."
+				description: "Content delivered to others and effective without target receiving it. Blocking does not help.",
+				summary: "Harm depends on delivery to others"
 			}
 		]
 	},
@@ -74,12 +76,14 @@ var dims = [
 			{
 				key: "accidental",
 				label: "Accidental",
-				description: "Action is often accidental and can be reduced by education or warnings."
+				description: "Action is often accidental and can be reduced by education or warnings.",
+				summary: "Harm is accidental"
 			},
 			{
 				key: "deliberate",
 				label: "Deliberate",
-				description: "Action is deliberate and cannot be reduced by education or warnings."
+				description: "Action is deliberate and cannot be reduced by education or warnings.",
+				summary: "Harm is deliberate"
 			}
 		]
 	},
